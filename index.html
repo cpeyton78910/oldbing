@@ -1,0 +1,1044 @@
+
+<!DOCTYPE html>
+<style type="text/css">
+    body {
+        transform: scale(1.15);
+    }
+
+
+    html {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+
+    a,
+    body {
+        color: #fff;
+        text-decoration: none
+    }
+
+
+    a:hover {
+        text-decoration: underline
+    }
+
+
+    .lit a,
+    .lit label {
+        color: #000
+    }
+
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0
+    }
+
+
+    label {
+        padding-right: 1em
+    }
+
+
+    #content {
+        position: relative;
+        _position: static;
+        overflow: hidden
+    }
+
+
+    #sw_content {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .sw_logo {
+        background: url(https://raw.githubusercontent.com/cpeyton78910/oldbing/main/h.png) 0 -38px no-repeat;
+        width: 125px;
+        height: 45px;
+        float;
+        left;
+        margin: -2px 30px 0 0;
+        _margin: -38px 30px 0 0;
+        _height: 83px;
+        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/fd/s/a/h.png', sizingMethod='crop');
+        text-indent: -9em
+    }
+
+
+    .lit .sw_logo {
+        background-position: 0 -83px;
+        _margin-top: -83px;
+        _height: 128px
+    }
+
+
+    .sw_sform {
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        z-index: 10;
+        width: 100%;
+        margin: 0
+    }
+
+
+    .search_controls {
+        float: left
+    }
+
+
+    .en-US {
+        top: 54px
+    }
+
+
+    .beta {
+        position: absolute;
+        top: 40px;
+        left: 0
+    }
+
+
+    .lit .beta {
+        color: #006DD4
+    }
+
+
+    html,
+    body {
+        height: 100%
+    }
+
+
+    body {
+        margin-top: -1px;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Sans-Serif;
+        font-size: small
+    }
+
+
+    .sc_grad {
+        background: url(http://web.archive.org/web/20090604093713im_/http://www.bing.com/fd/s/a/h.png) 0 -128px;
+        position: absolute;
+        width: 100%;
+        height: 35px
+    }
+
+
+    table.layout {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse
+    }
+
+
+    td.layout {
+        vertical-align: middle;
+        padding: 1.8em 20px 0 20px
+    }
+
+
+    #container {
+        text-align: left;
+        position: relative;
+        _width: 960px;
+        min-width: 650px;
+        max-width: 958px;
+        padding-top: 20px
+    }
+
+
+    .content_wrap {
+        border: solid 1px #d8dfe3;
+        background: #b2bdc4
+    }
+
+
+    .sw_b input {
+        float: left;
+        *float: none;
+        border: 0;
+        margin: 0 .44em -.8em .24em;
+        color: #333;
+        font-size: 100%;
+        padding: .2em;
+        width: 24.0333em;
+        height: 1.2em;
+        line-height: 1.2em
+    }
+
+
+    .sw_bd {
+        display: inline-block;
+        _float: left;
+        position: absolute;
+        left: 155px;
+        top: 0;
+        z-index: 1
+    }
+
+
+    .sw_bd2 .sw_b {
+        float: left
+    }
+
+
+    input.sw_q_nrw {
+        width: 14.9333em
+    }
+
+
+    .sw_b .sw_qbtn {
+        background: url(http://web.archive.org/web/20090604093713im_/http://www.bing.com/fd/s/a/h.png);
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+        padding: 24px 0 0;
+        margin: 0 0 -12px;
+        overflow: hidden
+    }
+
+
+    #sb_form_q2 {
+        width: 15.5em
+    }
+
+
+    .sw_b {
+        font-size: 115.9%;
+        *font-size: 113%;
+        float: left;
+        * float: none;
+        border: 1px #acbabd solid;
+        background: #fff;
+        padding: .2em .2em 1em;
+        *padding: .13em .2em .93em;
+        margin: 0 0 0 1px
+    }
+
+
+    #sw_as {
+        position: relative;
+        clear: both;
+        display: none;
+        font-size: small
+    }
+
+
+    #sw_filt input {
+        margin-right: 2px;
+        zoom: 1
+    }
+
+
+    #sw_filt label {
+        zoom: 1
+    }
+
+
+    .sw_t {
+        filter: alpha(opacity=15);
+        opacity: .15;
+        background: #000;
+        height: 100%;
+        _height: 15.84em;
+        width: 100%;
+        position: absolute;
+        z-index: -1
+    }
+
+
+    .sc_expLite .sw_t {
+        filter: alpha(opacity=25);
+        opacity: .25
+    }
+
+
+    .sb_form_align {
+        top: 2.5em;
+        left: 151px;
+        position: absolute
+    }
+
+
+    .sc_scp {
+        white-space: nowrap;
+        font-size: 1.07em;
+        position: absolute;
+        left: 153px;
+        top: -2.02em
+    }
+
+
+    .sc_scp a,
+    .sc_scp span {
+        white-space: nowrap
+    }
+
+
+    .sc_scp span.sc_arw {
+        font-size: 70%;
+        margin-left: .1em;
+        cursor: pointer
+    }
+
+
+    .sc_action span,
+    .sc_action a {
+        font-weight: bold
+    }
+
+
+    .sc_scp,
+    .sc_scp li,
+    .sc_scp ul {
+        display: inline
+    }
+
+
+    .sc_scp li {
+        padding: 0 8px;
+        zoom: 1
+    }
+
+
+    .sc_active,
+    .drk li.sc_active {
+        color: #ffa615;
+        font-weight: bold;
+        border-left: solid 1px #a8b1b7;
+        border-right: solid 1px #a8b1b7;
+        padding: 0 10px;
+        margin: 0 4px
+    }
+
+
+    .sc_exp {
+        position: absolute;
+        width: 145px;
+        top: 40%;
+        left: 6.5%;
+        z-index: 1
+    }
+
+
+    .lit .sc_exp a {
+        color: #fff
+    }
+
+
+    .sc_exp h2 {
+        background: #f9761d;
+        margin: 0;
+        position: absolute;
+        text-transform: uppercase;
+        top: -1.16em;
+        left: 0;
+        font-size: small;
+        font-weight: 200
+    }
+
+
+    .sc_exp h2 div {
+        position: relative;
+        padding: .33em 15px
+    }
+
+
+    .sc_exp h2 span {
+        background: url(http://web.archive.org//web/20090604093713im_/http://www.bing.com/fd/s/a/h.png) right 0 no-repeat;
+        display: block;
+        height: 24px;
+        width: 100px;
+        position: absolute;
+        right: 0;
+        bottom: 0
+    }
+
+
+    .sc_exp h2 span span {
+        background-position: -24px 0;
+        width: 71px;
+        left: -71px
+    }
+
+
+    .sc_exp #sch_scopes {
+        padding: 1.39em 0 .77em
+    }
+
+
+    #sw_content .sc_exp a {
+        display: block;
+        padding: .54em 0 .54em 30px
+    }
+
+
+    .mmP {
+        font-size: 86%;
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        opacity: 70%;
+        filter: alpha(opacity=70)
+    }
+
+
+    #mmBB .sc_dark a {
+        color: #000;
+        opacity: .4;
+        filter: alpha(opacity=40)
+    }
+
+
+    #mmBB .sc_light a {
+        opacity: .7;
+        filter: alpha(opacity=70)
+    }
+
+
+    #sb_foot {
+        width: 100%;
+        float: left;
+        background: #b2bdc4
+    }
+
+
+    #sw_footL {
+        float: right
+    }
+
+
+    #sb_foot,
+    .sw_tb {
+        *display: inline-block;
+        padding: 4px 0
+    }
+
+
+    #sb_feedback {
+        margin-right: 0
+    }
+
+
+    #sw_pb {
+        border-top: 1px #d8dfe3 solid;
+        _border-bottom: 1px #d8dfe3 solid
+    }
+
+
+    #sw_pb div {
+        border-right: 1px #d8dfe3 solid;
+        float: left;
+        padding: 0 15px;
+        margin: 12px 0;
+        width: 20%
+    }
+
+
+    #sw_pb h3 {
+        font-size: medium;
+        font-weight: 200;
+        margin: -3px 0 6px
+    }
+
+
+    #sw_pb a {
+        color: #1a3038
+    }
+
+
+    #sw_pb div,
+    #sw_pb h3,
+    #sw_pb a {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+
+    #sw_pb .ps {
+        _height: 100%;
+        _margin: 0;
+        _padding: 9px 15px 12px;
+        border: 0;
+        float: none;
+        width: auto
+    }
+
+
+    #sw_hdr {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom: 1px #bac3c8 solid;
+        _padding: 0 20px;
+        width: 100%;
+        min-width: 700px;
+        z-index: 5
+    }
+
+
+    .sw_tb {
+        line-height: 130%;
+        min-height: 14px;
+        _margin: 0 -20px;
+        padding: .35em 0 .35em 5px
+    }
+
+
+    .sw_tb div {
+        *display: none;
+        height: 0
+    }
+
+
+    #sb_foot,
+    #sb_foot a,
+    #sb_foot a:visited {
+        color: #898994
+    }
+
+
+    #sb_foot li,
+    .sw_tb li {
+        display: inline
+    }
+
+
+    #sb_foot a,
+    #sb_foot span,
+    .sw_tb a,
+    .sw_tb span {
+        margin: 0 .25em;
+        white-space: nowrap
+    }
+
+
+    #sb_foot a {
+        margin: .4em
+    }
+
+
+    #sb_foot a span,
+    .sw_tb a span,
+    .sw_tb span a {
+        margin: 0
+    }
+
+
+    .sw_tb .sc_hl1 {
+        float: left;
+        text-align: left
+    }
+
+
+    #sw_hdr .sw_tb div {
+        display: inline
+    }
+
+
+    #sw_hdr .sw_tb h3,
+    #sw_hdr .sw_tb #sch_scopes {
+        font-size: 100%;
+        font-weight: normal;
+        width: auto;
+        display: inline;
+        margin: 0 .5em 0 0
+    }
+
+
+    #sw_footR,
+    .sw_right {
+        text-align: right;
+        white-space: nowrap;
+        float: right
+    }
+
+
+    .sw_u {
+        font-weight: bold
+    }
+
+
+    .mktTgl {
+        margin: 0 .5em -.2em 0
+    }
+
+
+    #bgDiv {
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 512px
+    }
+
+
+    #hp_vbackground {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+    }
+
+
+    .sh_hst {
+        position: absolute;
+        z-index: 4;
+        visibility: hidden;
+        background: url(http://web.archive.org/web/20090604093713im_/http://www.bing.com/fd/s/live/hs.png) no-repeat;
+        height: 39px;
+        width: 39px;
+        _background: none
+    }
+
+
+    .sh_hst div {
+        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/fd/s/live/hs.png');
+        _height: 39px;
+        _width: 39px
+    }
+
+
+    a.sh_hs {
+        position: absolute;
+        display: block;
+        border: 1px solid #555;
+        cursor: pointer;
+        z-index: 15;
+        line-height: 1.4em;
+        width: 205px;
+        _width: 206px;
+        padding: 3px 8px 6px;
+        visibility: hidden
+    }
+
+
+    a.sh_hs:hover {
+        text-decoration: none
+    }
+
+
+    #sw_content a.sh_hs p,
+    #sw_content a:visited.sh_hs p {
+        margin: 0 0 .2em
+    }
+
+
+    .sh_hq {
+        text-decoration: underline
+    }
+
+
+    .sh_hi {
+        display: inline;
+        *display: inline-block;
+        font-size: 18px;
+        color: orange
+    }
+
+
+    a.sh_hs div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: .5;
+        background: #000;
+        border: 1px solid #fff;
+        _width: 220px;
+        filter: alpha(opacity=50)
+    }
+
+
+    .sw_uclm,
+    #makeHP {
+        display: none
+    }
+
+
+    #sw_uclr {
+        z-index: 9;
+        text-transform: capitalize
+    }
+
+
+    #sw_uclr ul.sw_uclm {
+        position: absolute;
+        background: #fff;
+        text-align: left;
+        width: 12.8em;
+        top: 1.9em;
+        right: 0;
+        padding: 1px 0 1px;
+        border: 1px solid #daeef4;
+        display: none;
+        margin: 0 1px 0 0
+    }
+
+
+    #sw_uclr .sw_uclm li {
+        display: block
+    }
+
+
+    #sw_uclr .sw_uclm li a {
+        display: block;
+        color: #03c;
+        font-size: 1em;
+        margin: 0;
+        padding: 4px 0 4px 10px
+    }
+
+
+    #sw_uclr .sw_uclm li a:visited {
+        color: #03c
+    }
+
+
+    #sw_uclr .sw_uclm li a:hover {
+        background: #dfe4e5
+    }
+
+
+    #sw_uclr .sw_ln {
+        border-bottom: 1px solid #daeef4
+    }
+
+
+    #sw_uclr span {
+        padding: 0 2px 4px
+    }
+
+
+    #sw_uclr #sw_ar {
+        padding: 6px 2px;
+        margin-right: 3px;
+        font-size: .6em
+    }
+
+
+    #sc_cash {
+        text-transform: none
+    }
+
+
+    #mmBB {
+        margin-top: -2.62em;
+        height: 2.62em;
+        font-size: 11px;
+        line-height: 11px;
+        color: #fff
+    }
+
+
+    #mmBB .sc_dark,
+    #mmBB .sc_dark div {
+        color: #000
+    }
+
+
+    #sh_rdiv {
+        float: right;
+        width: auto
+    }
+
+
+    #sh_rdiv a {
+        position: relative;
+        float: left;
+        display: block;
+        text-decoration: none;
+        cursor: default;
+        outline: none
+    }
+
+
+    a#sh_cp {
+        display: block;
+        margin: 0 .33em 0 .2em
+    }
+
+
+    #sh_cpo {
+        padding: 4px 5px .45em
+    }
+
+
+    #sh_rdiv a span {
+        padding: 4px 5px .45em;
+        margin: 0;
+        background-color: #fff;
+        position: absolute;
+        top: -2.2em;
+        right: .2em;
+        visibility: hidden;
+        white-space: nowrap;
+        color: #150417;
+        border: 1px solid #555
+    }
+
+
+    #sh_rdiv a:hover,
+    #sh_rdiv a:hover span {
+        visibility: visible
+    }
+
+
+    #sa_as #sa_bk {
+        background: url(http://web.archive.org//web/20090604093713im_/http://www.bing.com/fd/s/a/h.png) -18px -25px
+    }
+
+
+    #sa_as #sa_om {
+        background: url(http://web.archive.org//web/20090604093713im_/http://www.bing.com/fd/s/a/h.png) 0 -186px
+    }
+</style>
+<style type="text/css">
+    .ps ul {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        _width: 100%
+    }
+
+
+    .ps li {
+        display: inline;
+        margin-right: 10px
+    }
+
+
+    .ps .big {
+        font-size: 110%
+    }
+
+
+    div#mmBB.mmP,
+    #mmBB.mmP a,
+    #mmBB.mmP a:visited {
+        color: #fff;
+        text-decoration: none;
+        font-size: 11px;
+        line-height: 11px
+    }
+
+
+    div#mmBB.mmP {
+        position: static
+    }
+
+
+    #mmBB.mmP .mm a:hover {
+        text-decoration: underline
+    }
+
+
+    #pi {
+        position: absolute;
+        right: 6.2%;
+        top: 6.2%;
+        z-index: 1;
+        padding: 5px
+    }
+
+
+    #pi div {
+        opacity: .15;
+        filter: alpha(opacity=15);
+        background: #fff;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        height: 86.9565217%;
+        width: 100%;
+        _height: 1.9em;
+        _width: 17em
+    }
+
+
+    .sc_dark#pi div {
+        opacity: .1;
+        filter: alpha(opacity=10);
+        background: #000
+    }
+
+
+    #pi a,
+    #pi p {
+        color: #fff;
+        font-style: italic;
+        margin: 0 7px
+    }
+
+
+    .sc_dark#pi a,
+    .sc_dark#pi p {
+        color: #525051
+    }
+
+
+    #sl_clr {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        top: 0
+    }
+
+
+    #sh_igl,
+    #sh_igr {
+        margin: 0 .25em;
+        visibility: hidden;
+        outline: none
+    }
+
+
+    #sh_igro,
+    #sh_iglo {
+        padding: 3px;
+        border: 1px solid;
+        cursor: pointer
+    }
+
+
+    #sh_igr .sc_darkdis,
+    #sh_igl .sc_darkdis {
+        opacity: .4;
+        filter: alpha(opacity=40);
+        cursor: default;
+        width: 58%;
+        _width: 1%
+    }
+
+
+    #sh_igr .sc_lightdis,
+    #sh_igl .sc_lightdis {
+        opacity: .5;
+        filter: alpha(opacity=50);
+        cursor: default;
+        width: 58%;
+        _width: 1%
+    }
+</style>
+<title>Bing</title>
+<link href="https://raw.githubusercontent.com/cpeyton78910/oldbing/main/Bing-Logo-HD-_1_.ico" rel="icon" />
+<meta content="Search. Explore. Decide." name="description" />
+<meta content="NOODP" name="ROBOTS" />
+<!-- FD: F186178A1CA33D35F7141FF9283E82E6 -->
+<script>
+    // A function to fetch the Bing background image URL from the API
+    function getBingImageURL() {
+        // Use the API endpoint to get the JSON response
+        var request = new XMLHttpRequest();
+        request.open("GET", "https://bing.biturl.top/?resolution=1920&format=json&index=0&mkt=en-US", true);
+        request.onload = function() {
+            if (request.status >= 200 && request.status < 400) {
+                // Parse the JSON response
+                var data = JSON.parse(request.responseText);
+                // Get the image URL from the response
+                var imageURL = data.url;
+                // Set the image URL as the background of the body element
+                document.body.style.backgroundImage = "url('" + imageURL + "')";
+                // Set the background size to cover the entire element
+                document.body.style.backgroundSize = "cover";
+            }
+        };
+        request.send();
+    }
+</script>
+</head>
+
+
+
+
+<body onload="getBingImageURL()">
+    <!-- BEGIN WAYBACK TOOLBAR INSERT -->
+    <script>
+        __wm.rw(0);
+    </script>
+    <div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+        <div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+            <div id="donato" style="position:relative;width:100%;">
+                <div id="donato-base">
+                </div>
+            </div>
+            <div id="wm-ipp-inside">
+                <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+                    <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.bing.com//" onfocus="this.focus();this.select();" style="flex:1;" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20090604093713"
+                        /><input type="submit" value="Go">
+                    </form>
+                    <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                        <div class="s" id="wm-nav-captures" style="flex:1;">
+                        </div>
+                        <div class="k">
+                            <a href="" id="wm-graph-anchor">
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sc_grad">
+        <div></div>
+    </div>
+    <html>
+    <div id="sw_content">
+        <div id="pi">
+            <a href="#">Live Search is evolving. Welcome to Bing.</a>
+            <div></div>
+        </div>
+        <div class="sw_sform">
+            <div class="sw_logo"></div>
+            <div class="sw_mbrand"></div>
+            <div class="beta"></div>
+            <div class="search_controls">
+                <form action="http://www.bing.com/search" class="sw_box" id="sb_form">
+                    <div class="sw_bd">
+                        <div class="sw_b">
+                            <input class="sw_qbox" id="sb_form_q" name="q" title="Enter your search term" type="text" value="" />
+                            <input class="sw_qbtn" id="sb_form_go" name="go" tabindex="0" title="Search" type="submit" value="" />
+                        </div>
+                        <div id="sw_as"></div>
+                    </div>
+                    <input name="form" type="hidden" value="QBLH" />
+                </form>
+            </div>
+        </div>
+        <div class="sc_exp sc_expLite">
+            <div class="sw_t"></div>
+            <h2><span><span></span></span>
+                <div>explore</div>
+            </h2>
+            <ul id="sch_scopes">
+                <li><a onclick="selectScope(this, 'images');" href="https://www.bing.com/images?FORM=Z9LH"><span></span>Images</a></li>
+                <li><a onclick="selectScope(this, 'video');" href="https://www.bing.com/videos?FORM=Z9LH1"><span></span>Videos</a></li>
+                <li><a onclick="selectScope(this, 'commerce');" href="https://www.bing.com/shop?FORM=Z9LHS4"><span></span>Shopping</a></li>
+                <li><a onclick="selectScope(this, 'news');" href="https://www.bing.com/news/search?q=Top+stories&nvaug=%5bNewsVertical+Category%3d%22rt_MaxClass%22%5d&FORM=Z9LH3"><span></span>News</a></li>
+                <li><a onclick="selectScope(this, 'local');" href="https://www.bing.com/maps?FORM=Z9LH2"><span></span>Maps</a></li>
+                <li><a onclick="selectScope(this, 'travel');" href="https://www.bing.com/travel?FORM=TGHPNT"><span></span>Travel</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+
+
+
+</html>
