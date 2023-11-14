@@ -822,7 +822,7 @@
     function getBingImageURL() {
         // Use the API endpoint to get the JSON response
         var request = new XMLHttpRequest();
-        request.open("GET", "https://bing.biturl.top/?resolution=1920&format=json&index=0&mkt=en-US", true);
+        request.open("GET", "https://bing.biturl.top/?resolution=3840&format=json&index=0&mkt=en-US", true);
         request.onload = function() {
             if (request.status >= 200 && request.status < 400) {
                 // Parse the JSON response
